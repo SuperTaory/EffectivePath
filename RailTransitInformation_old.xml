@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MetroInformation>
+  <BaseInformation>
+    <StaitonCount staitonCount="118"/>
+    <TransStation transStation="13"/>
+    <RepeatAllStaitonCount repeatAllStaitonCount="131"/>
+    <AdjacStaitonCount adjacStaitonCount="252"/>
+    <LineCount lineCount="5"/>
+    <TransLimitCount transLimitCount="2"/>
+    <TrainInterval TrainInterval1="6" TrainInterval2="8" TrainInterval3="8" TrainInterval4="6" TrainInterval5="8.5"/>
+    <Speed Speed1="34.8" Speed2="31" Speed3="35.14" Speed4="37" Speed5="35.58"/>
+    <LineNoName LineNoName1="268" LineNoName2="260" LineNoName3="261" LineNoName4="262" LineNoName5="263"/>
+    <LowestODPrice LowestODStationPrice="2"/>
+    <PathTimeSeparetor ShortTravelLimit="30" MiddleTravelLimit="60"/>
+    <PathAddTimeSeparetor ShortAddLimit="10" MiddleAddLimit="10" LongAddLimit="15"/>
+  </BaseInformation>
+
+  <StationConnectInfor>
+  	<Detail StatNo="1268036000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="0" 	 PreStatNo="0" 			PreStatDis="0" 	 PreDirect="1" StatStopTime1="0" NextClearLineNo="2682" NextStatNo="1268035000" NextStatDis="156" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1268035000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268036000" PreStatDis="156" PreDirect="1" StatStopTime1="30" NextClearLineNo="2682" NextStatNo="1268034000" NextStatDis="210" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268034000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268035000" PreStatDis="210" PreDirect="1" StatStopTime1="35" NextClearLineNo="2682" NextStatNo="1268033000" NextStatDis="204" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268033000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268034000" PreStatDis="207" PreDirect="1" StatStopTime1="40" NextClearLineNo="2682" NextStatNo="1268032000" NextStatDis="84" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268032000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268033000" PreStatDis="82"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2682" NextStatNo="1268031000" NextStatDis="104" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268031000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268032000" PreStatDis="104" PreDirect="1" StatStopTime1="40" NextClearLineNo="2682" NextStatNo="1268030000" NextStatDis="72" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268030000" IsTrans="1" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268031000" PreStatDis="73"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2682" NextStatNo="1268029000" NextStatDis="81" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268029000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268030000" PreStatDis="84"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2682" NextStatNo="1268028000" NextStatDis="102" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268028000" IsTrans="1" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268029000" PreStatDis="101" PreDirect="1" StatStopTime1="30" NextClearLineNo="2682" NextStatNo="1268027000" NextStatDis="78" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268027000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268028000" PreStatDis="76"  PreDirect="1" StatStopTime1="30" NextClearLineNo="2682" NextStatNo="1268026000" NextStatDis="91" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268026000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268027000" PreStatDis="90"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2682" NextStatNo="1268025000" NextStatDis="83" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268025000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268026000" PreStatDis="82"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2682" NextStatNo="1268024000" NextStatDis="171" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268024000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268025000" PreStatDis="171" PreDirect="1" StatStopTime1="45" NextClearLineNo="2682" NextStatNo="1268023000" NextStatDis="90" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268023000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268024000" PreStatDis="90"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2682" NextStatNo="1268022000" NextStatDis="101" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268022000" IsTrans="0" LineNo="268" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268023000" PreStatDis="100" PreDirect="1" StatStopTime1="40" NextClearLineNo="2682" NextStatNo="1268016000" NextStatDis="69" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268016000" IsTrans="1" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2682" PreStatNo="1268022000" PreStatDis="74"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2681" NextStatNo="1268015000" NextStatDis="84" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268015000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268016000" PreStatDis="96"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2681" NextStatNo="1268014000" NextStatDis="84" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268014000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268015000" PreStatDis="85"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2681" NextStatNo="1268013000" NextStatDis="122" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268013000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268014000" PreStatDis="120" PreDirect="1" StatStopTime1="35" NextClearLineNo="2681" NextStatNo="1268012000" NextStatDis="93" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268012000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268013000" PreStatDis="91"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2681" NextStatNo="1268011000" NextStatDis="97" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268011000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268012000" PreStatDis="96"  PreDirect="1" StatStopTime1="30" NextClearLineNo="2681" NextStatNo="1268009000" NextStatDis="132" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268009000" IsTrans="1" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268011000" PreStatDis="125" PreDirect="1" StatStopTime1="35" NextClearLineNo="2681" NextStatNo="1268008000" NextStatDis="62" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268008000" IsTrans="1" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268009000" PreStatDis="62"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2681" NextStatNo="1268007000" NextStatDis="59" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268007000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268008000" PreStatDis="59"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2681" NextStatNo="1268006000" NextStatDis="145" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268006000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268007000" PreStatDis="143" PreDirect="1" StatStopTime1="45" NextClearLineNo="2681" NextStatNo="1268005000" NextStatDis="77" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268005000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268006000" PreStatDis="77"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2681" NextStatNo="1268004000" NextStatDis="103" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268004000" IsTrans="1" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268005000" PreStatDis="102" PreDirect="1" StatStopTime1="40" NextClearLineNo="2681" NextStatNo="1268003000" NextStatDis="85" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268003000" IsTrans="1" LineNo="268" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268004000" PreStatDis="86"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2681" NextStatNo="1268002000" NextStatDis="68" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268002000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268003000" PreStatDis="71"  PreDirect="1" StatStopTime1="30" NextClearLineNo="2681" NextStatNo="1268001000" NextStatDis="95" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268001000" IsTrans="0" LineNo="268" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2681" PreStatNo="1268002000" PreStatDis="91"  PreDirect="1" StatStopTime1="0" NextClearLineNo="0" NextStatNo="0" NextStatDis="0" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1260011000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="0" PreStatNo="0" PreStatDis="0" PreDirect="1" StatStopTime1="0" NextClearLineNo="2601" NextStatNo="1260012000" NextStatDis="157" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1260012000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260011000" PreStatDis="158" PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260013000" NextStatDis="96" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260013000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260012000" PreStatDis="96"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260014000" NextStatDis="70" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260014000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260013000" PreStatDis="70"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2601" NextStatNo="1260015000" NextStatDis="106" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260015000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260014000" PreStatDis="106" PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260016000" NextStatDis="124" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260016000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260015000" PreStatDis="124" PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260017000" NextStatDis="75" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260017000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260016000" PreStatDis="75"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260018000" NextStatDis="84" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260018000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260017000" PreStatDis="84"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1260019000" NextStatDis="88" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260019000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260018000" PreStatDis="90"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2601" NextStatNo="1260020000" NextStatDis="117" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260020000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260019000" PreStatDis="117" PreDirect="1" StatStopTime1="40" NextClearLineNo="2601" NextStatNo="1260021000" NextStatDis="171" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260021000" IsTrans="0" LineNo="260" ClearLineNo="2601" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260020000" PreStatDis="171" PreDirect="1" StatStopTime1="35" NextClearLineNo="2601" NextStatNo="1268016000" NextStatDis="134" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268016000" IsTrans="1" LineNo="260" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1260021000" PreStatDis="130" PreDirect="1" StatStopTime1="45" NextClearLineNo="2602" NextStatNo="1260023000" NextStatDis="153" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1260023000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2601" PreStatNo="1268016000" PreStatDis="154" PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260024000" NextStatDis="112" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260024000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260023000" PreStatDis="110" PreDirect="1" StatStopTime1="35" NextClearLineNo="2602" NextStatNo="1260025000" NextStatDis="77" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260025000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260024000" PreStatDis="79"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2602" NextStatNo="1260026000" NextStatDis="81" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1260026000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260025000" PreStatDis="82"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260027000" NextStatDis="89" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260027000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260026000" PreStatDis="91"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260028000" NextStatDis="87" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260028000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260027000" PreStatDis="82"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260029000" NextStatDis="112" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260029000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260028000" PreStatDis="125" PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260030000" NextStatDis="121" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260030000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260029000" PreStatDis="126" PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1261006000" NextStatDis="98" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1261006000" IsTrans="1" LineNo="260" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260030000" PreStatDis="97"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2602" NextStatNo="1268019000" NextStatDis="86" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1268019000" IsTrans="1" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1261006000" PreStatDis="92"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2602" NextStatNo="1260033000" NextStatDis="76" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1260033000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1268019000" PreStatDis="82"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260034000" NextStatDis="150" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260034000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260033000" PreStatDis="153" PreDirect="1" StatStopTime1="45" NextClearLineNo="2602" NextStatNo="1260035000" NextStatDis="65" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1260035000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260034000" PreStatDis="65"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1268004000" NextStatDis="136" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268004000" IsTrans="1" LineNo="260" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260035000" PreStatDis="137" PreDirect="1" StatStopTime1="45" NextClearLineNo="2602" NextStatNo="1260037000" NextStatDis="133" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1260037000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1268004000" PreStatDis="143" PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1263037000" NextStatDis="100" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263037000" IsTrans="1" LineNo="260" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1260037000" PreStatDis="105" PreDirect="1" StatStopTime1="40" NextClearLineNo="2602" NextStatNo="1260039000" NextStatDis="111" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1260039000" IsTrans="0" LineNo="260" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2602" PreStatNo="1263037000" PreStatDis="99"  PreDirect="1" StatStopTime1="0" NextClearLineNo="0" NextStatNo="0" NextStatDis="0" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1261003000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="0" PreStatNo="0" PreStatDis="0" PreDirect="0" StatStopTime1="0" NextClearLineNo="2612" NextStatNo="1261004000" NextStatDis="81" StatStopTime2="0" NextDirect="1"/>
+    <Detail StatNo="1261004000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261003000" PreStatDis="80"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1268009000" NextStatDis="93" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1268009000" IsTrans="1" LineNo="261" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261004000" PreStatDis="93"  PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1261006000" NextStatDis="74" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261006000" IsTrans="1" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1268009000" PreStatDis="74"  PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1268021000" NextStatDis="123" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1268021000" IsTrans="1" LineNo="261" ClearLineNo="2621" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261006000" PreStatDis="121" PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1261008000" NextStatDis="75" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261008000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1268021000" PreStatDis="75"  PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1261009000" NextStatDis="128" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261009000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261008000" PreStatDis="127" PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1261010000" NextStatDis="85" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261010000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261009000" PreStatDis="86"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1261011000" NextStatDis="74" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261011000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261010000" PreStatDis="74"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1268003000" NextStatDis="107" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1268003000" IsTrans="1" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261011000" PreStatDis="108" PreDirect="0" StatStopTime1="50" NextClearLineNo="2612" NextStatNo="1261013000" NextStatDis="83" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261013000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1268003000" PreStatDis="85"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1261014000" NextStatDis="97" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261014000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261013000" PreStatDis="98"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1261015000" NextStatDis="110" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261015000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261014000" PreStatDis="108" PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1261016000" NextStatDis="94" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261016000" IsTrans="0" LineNo="261" ClearLineNo="2612" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261015000" PreStatDis="91"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2612" NextStatNo="1261017000" NextStatDis="116" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261017000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2612" PreStatNo="1261016000" PreStatDis="118" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261018000" NextStatDis="146" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261018000" IsTrans="1" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261017000" PreStatDis="155" PreDirect="0" StatStopTime1="50" NextClearLineNo="2611" NextStatNo="1261019000" NextStatDis="91" StatStopTime2="50" NextDirect="1"/>
+    <Detail StatNo="1261019000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261018000" PreStatDis="91"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261020000" NextStatDis="94" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261020000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261019000" PreStatDis="92"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261021000" NextStatDis="98" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261021000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261020000" PreStatDis="96"  PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261022000" NextStatDis="226" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261022000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261021000" PreStatDis="226" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261023000" NextStatDis="109" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261023000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261022000" PreStatDis="107" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261024000" NextStatDis="137" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261024000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261023000" PreStatDis="134" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261025000" NextStatDis="110" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261025000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261024000" PreStatDis="109" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261026000" NextStatDis="119" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261026000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261025000" PreStatDis="118" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261027000" NextStatDis="107" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261027000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261026000" PreStatDis="107" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261028000" NextStatDis="108" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261028000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261027000" PreStatDis="108" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261029000" NextStatDis="119" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261029000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261028000" PreStatDis="120" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261030000" NextStatDis="103" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261030000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261029000" PreStatDis="106" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261031000" NextStatDis="97" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261031000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261030000" PreStatDis="100" PreDirect="0" StatStopTime1="35" NextClearLineNo="2611" NextStatNo="1261032000" NextStatDis="114" StatStopTime2="35" NextDirect="1"/>
+    <Detail StatNo="1261032000" IsTrans="0" LineNo="261" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2611" PreStatNo="1261031000" PreStatDis="109" PreDirect="0" StatStopTime1="0" NextClearLineNo="0" NextStatNo="0" NextStatDis="0" StatStopTime2="0" NextDirect="1"/>
+    <Detail StatNo="1262011000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="0" PreStatNo="0" PreStatDis="0" PreDirect="1" StatStopTime1="0" NextClearLineNo="2622" NextStatNo="1262012000" NextStatDis="138" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1262012000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262011000" PreStatDis="134" PreDirect="1" StatStopTime1="30" NextClearLineNo="2622" NextStatNo="1262013000" NextStatDis="101" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1262013000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262012000" PreStatDis="97"  PreDirect="1" StatStopTime1="25" NextClearLineNo="2622" NextStatNo="1262014000" NextStatDis="97" StatStopTime2="25" NextDirect="0"/>
+    <Detail StatNo="1262014000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262013000" PreStatDis="97"  PreDirect="1" StatStopTime1="25" NextClearLineNo="2622" NextStatNo="1262015000" NextStatDis="130" StatStopTime2="25" NextDirect="0"/>
+    <Detail StatNo="1262015000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262014000" PreStatDis="133" PreDirect="1" StatStopTime1="25" NextClearLineNo="2622" NextStatNo="1262016000" NextStatDis="106" StatStopTime2="25" NextDirect="0"/>
+    <Detail StatNo="1262016000" IsTrans="1" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262015000" PreStatDis="104" PreDirect="1" StatStopTime1="35" NextClearLineNo="2622" NextStatNo="1262017000" NextStatDis="111" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1262017000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262016000" PreStatDis="110" PreDirect="1" StatStopTime1="30" NextClearLineNo="2622" NextStatNo="1262018000" NextStatDis="83" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1262018000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262017000" PreStatDis="88"  PreDirect="1" StatStopTime1="30" NextClearLineNo="2622" NextStatNo="1262019000" NextStatDis="178" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1262019000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262018000" PreStatDis="186" PreDirect="1" StatStopTime1="30" NextClearLineNo="2622" NextStatNo="1262020000" NextStatDis="82" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1262020000" IsTrans="0" LineNo="262" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262019000" PreStatDis="86"  PreDirect="1" StatStopTime1="25" NextClearLineNo="2622" NextStatNo="1268021000" NextStatDis="106" StatStopTime2="25" NextDirect="0"/>
+    <Detail StatNo="1268021000" IsTrans="1" LineNo="262" ClearLineNo="2621" ServiceFee="0" PreClearLineNo="2622" PreStatNo="1262020000" PreStatDis="108" PreDirect="1" StatStopTime1="35" NextClearLineNo="2621" NextStatNo="1268019000" NextStatDis="63" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268019000" IsTrans="1" LineNo="262" ClearLineNo="2602" ServiceFee="0" PreClearLineNo="2621" PreStatNo="1268021000" PreStatDis="66"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2621" NextStatNo="1268008000" NextStatDis="69" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268008000" IsTrans="1" LineNo="262" ClearLineNo="2681" ServiceFee="0" PreClearLineNo="2621" PreStatNo="1268019000" PreStatDis="73"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2621" NextStatNo="1268018000" NextStatDis="98" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1268018000" IsTrans="0" LineNo="262" ClearLineNo="2621" ServiceFee="0" PreClearLineNo="2621" PreStatNo="1268008000" PreStatDis="95"  PreDirect="1" StatStopTime1="30" NextClearLineNo="2621" NextStatNo="1268017000" NextStatDis="109" StatStopTime2="30" NextDirect="0"/>
+    <Detail StatNo="1268017000" IsTrans="0" LineNo="262" ClearLineNo="2621" ServiceFee="0" PreClearLineNo="2621" PreStatNo="1268018000" PreStatDis="103" PreDirect="1" StatStopTime1="0" NextClearLineNo="0" NextStatNo="0" NextStatDis="0" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1268028000" IsTrans="1" LineNo="263" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="0" PreStatNo="0" PreStatDis="0" PreDirect="1" StatStopTime1="0" NextClearLineNo="2631" NextStatNo="1263012000" NextStatDis="105" StatStopTime2="0" NextDirect="0"/>
+    <Detail StatNo="1263012000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1268028000" PreStatDis="109" PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263013000" NextStatDis="75" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263013000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263012000" PreStatDis="75"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1268030000" NextStatDis="80" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1268030000" IsTrans="1" LineNo="263" ClearLineNo="2682" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263013000" PreStatDis="78"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263015000" NextStatDis="72" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263015000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1268030000" PreStatDis="73"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263016000" NextStatDis="116" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263016000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263015000" PreStatDis="114" PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263017000" NextStatDis="85" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263017000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263016000" PreStatDis="90"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263018000" NextStatDis="92" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263018000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263017000" PreStatDis="93"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263019000" NextStatDis="178" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263019000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263018000" PreStatDis="178" PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263020000" NextStatDis="93" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263020000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263019000" PreStatDis="91"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263021000" NextStatDis="90" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263021000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263020000" PreStatDis="90"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263022000" NextStatDis="220" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263022000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263021000" PreStatDis="236" PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263023000" NextStatDis="108" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263023000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263022000" PreStatDis="114" PreDirect="1" StatStopTime1="50" NextClearLineNo="2631" NextStatNo="1262016000" NextStatDis="186" StatStopTime2="50" NextDirect="0"/>
+    <Detail StatNo="1262016000" IsTrans="1" LineNo="263" ClearLineNo="2622" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263023000" PreStatDis="170" PreDirect="1" StatStopTime1="45" NextClearLineNo="2631" NextStatNo="1263025000" NextStatDis="98" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1263025000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1262016000" PreStatDis="102" PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263026000" NextStatDis="152" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263026000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263025000" PreStatDis="160" PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263027000" NextStatDis="93" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263027000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263026000" PreStatDis="93"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263028000" NextStatDis="80" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263028000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263027000" PreStatDis="80"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263029000" NextStatDis="196" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263029000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263028000" PreStatDis="196" PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263030000" NextStatDis="85" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263030000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263029000" PreStatDis="85"  PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263031000" NextStatDis="74" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263031000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263030000" PreStatDis="73"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2631" NextStatNo="1261018000" NextStatDis="91" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1261018000" IsTrans="1" LineNo="263" ClearLineNo="2611" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263031000" PreStatDis="87"  PreDirect="1" StatStopTime1="45" NextClearLineNo="2631" NextStatNo="1263033000" NextStatDis="117" StatStopTime2="45" NextDirect="0"/>
+    <Detail StatNo="1263033000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1261018000" PreStatDis="122" PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263034000" NextStatDis="140" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263034000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263033000" PreStatDis="135" PreDirect="1" StatStopTime1="40" NextClearLineNo="2631" NextStatNo="1263035000" NextStatDis="85" StatStopTime2="40" NextDirect="0"/>
+    <Detail StatNo="1263035000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263034000" PreStatDis="85"  PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263036000" NextStatDis="140" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263036000" IsTrans="0" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263035000" PreStatDis="140" PreDirect="1" StatStopTime1="35" NextClearLineNo="2631" NextStatNo="1263037000" NextStatDis="115" StatStopTime2="35" NextDirect="0"/>
+    <Detail StatNo="1263037000" IsTrans="1" LineNo="263" ClearLineNo="2631" ServiceFee="0" PreClearLineNo="2631" PreStatNo="1263036000" PreStatDis="115" PreDirect="1" StatStopTime1="0" NextClearLineNo="0" NextStatNo="0" NextStatDis="0" StatStopTime2="0" NextDirect="0"/>
+	</StationConnectInfor>
+  <TransStationWalkTime>
+    <WalkTime StationNo="1268008000" FromLineNo="268" ToLineNo="262" direction00 = "2.50" direction01 = "1.18" direction10 = "2.50" direction11 = "1.18"/>
+    <WalkTime StationNo="1268008000" FromLineNo="262" ToLineNo="268" direction00 = "2.50" direction01 = "2.50" direction10 = "1.18" direction11 = "1.18"/>
+    <WalkTime StationNo="1268003000" FromLineNo="268" ToLineNo="261" direction00 = "1.20" direction01 = "0.83" direction10 = "0.83" direction11 = "1.20"/>
+    <WalkTime StationNo="1268003000" FromLineNo="261" ToLineNo="268" direction00 = "1.20" direction01 = "0.83" direction10 = "0.83" direction11 = "1.20"/>
+    <WalkTime StationNo="1268004000" FromLineNo="268" ToLineNo="260" direction00 = "3.28" direction01 = "3.28" direction10 = "3.28" direction11 = "3.28"/>
+    <WalkTime StationNo="1268004000" FromLineNo="260" ToLineNo="268" direction00 = "3.28" direction01 = "3.28" direction10 = "3.28" direction11 = "3.28"/>
+    <WalkTime StationNo="1268009000" FromLineNo="268" ToLineNo="261" direction00 = "6.28" direction01 = "6.28" direction10 = "6.28" direction11 = "6.28"/>
+    <WalkTime StationNo="1268009000" FromLineNo="261" ToLineNo="268" direction00 = "6.28" direction01 = "6.28" direction10 = "6.28" direction11 = "6.28"/>
+    <WalkTime StationNo="1268016000" FromLineNo="268" ToLineNo="260" direction00 = "1.20" direction01 = "1.88" direction10 = "1.20" direction11 = "1.88"/>
+    <WalkTime StationNo="1268016000" FromLineNo="260" ToLineNo="268" direction00 = "1.20" direction01 = "1.20" direction10 = "1.88" direction11 = "1.88"/>
+    <WalkTime StationNo="1268028000" FromLineNo="268" ToLineNo="263" direction00 = "1.62" direction01 = "1.62" direction10 = "1.62" direction11 = "1.62"/>
+    <WalkTime StationNo="1268028000" FromLineNo="263" ToLineNo="268" direction00 = "1.62" direction01 = "1.62" direction10 = "1.62" direction11 = "1.62"/>
+    <WalkTime StationNo="1268030000" FromLineNo="268" ToLineNo="263" direction00 = "1.15" direction01 = "1.38" direction10 = "1.15" direction11 = "1.38"/>
+    <WalkTime StationNo="1268030000" FromLineNo="263" ToLineNo="268" direction00 = "1.15" direction01 = "1.15" direction10 = "1.38" direction11 = "1.38"/>
+    <WalkTime StationNo="1261006000" FromLineNo="260" ToLineNo="261" direction00 = "2.17" direction01 = "1.47" direction10 = "2.17" direction11 = "1.47"/>
+    <WalkTime StationNo="1261006000" FromLineNo="261" ToLineNo="260" direction00 = "2.17" direction01 = "2.17" direction10 = "1.47" direction11 = "1.47"/>
+    <WalkTime StationNo="1268019000" FromLineNo="260" ToLineNo="262" direction00 = "4.47" direction01 = "4.72" direction10 = "4.47" direction11 = "4.72"/>
+    <WalkTime StationNo="1268019000" FromLineNo="262" ToLineNo="260" direction00 = "4.47" direction01 = "4.47" direction10 = "4.72" direction11 = "4.72"/>
+    <WalkTime StationNo="1263037000" FromLineNo="260" ToLineNo="263" direction00 = "2.65" direction01 = "0.15" direction10 = "0.15" direction11 = "2.65"/>
+    <WalkTime StationNo="1263037000" FromLineNo="263" ToLineNo="260" direction00 = "2.65" direction01 = "0.15" direction10 = "0.15" direction11 = "2.65"/>
+    <WalkTime StationNo="1268021000" FromLineNo="261" ToLineNo="262" direction00 = "4.63" direction01 = "3.88" direction10 = "4.63" direction11 = "3.88"/>
+    <WalkTime StationNo="1268021000" FromLineNo="262" ToLineNo="261" direction00 = "4.63" direction01 = "4.63" direction10 = "3.88" direction11 = "3.88"/>
+    <WalkTime StationNo="1261018000" FromLineNo="261" ToLineNo="263" direction00 = "3.98" direction01 = "3.98" direction10 = "3.98" direction11 = "3.98"/>
+    <WalkTime StationNo="1261018000" FromLineNo="263" ToLineNo="261" direction00 = "3.98" direction01 = "3.98" direction10 = "3.98" direction11 = "3.98"/>
+    <WalkTime StationNo="1262016000" FromLineNo="262" ToLineNo="263" direction00 = "3.90" direction01 = "4.53" direction10 = "3.90" direction11 = "4.53"/>
+    <WalkTime StationNo="1262016000" FromLineNo="263" ToLineNo="262" direction00 = "3.90" direction01 = "3.90" direction10 = "4.53" direction11 = "4.53"/>
+  </TransStationWalkTime>
+  <ODPrice>
+    <Price Ori="1268024000" Des="1268023000" Price="2"/>
+    <Price Ori="1268024000" Des="1268022000" Price="2"/>
+    <Price Ori="1268024000" Des="1268016000" Price="2"/>
+    <Price Ori="1268024000" Des="1268015000" Price="3"/>
+    <Price Ori="1268024000" Des="1268014000" Price="3"/>
+    <Price Ori="1268024000" Des="1268013000" Price="3"/>
+    <Price Ori="1268024000" Des="1268012000" Price="3"/>
+    <Price Ori="1268024000" Des="1268011000" Price="4"/>
+    <Price Ori="1268024000" Des="1268009000" Price="4"/>
+    <Price Ori="1268024000" Des="1268008000" Price="4"/>
+    <Price Ori="1268024000" Des="1268007000" Price="4"/>
+    <Price Ori="1268024000" Des="1268006000" Price="5"/>
+    <Price Ori="1268024000" Des="1268005000" Price="5"/>
+    <Price Ori="1268024000" Des="1268004000" Price="5"/>
+    <Price Ori="1268024000" Des="1268003000" Price="5"/>
+    <Price Ori="1268024000" Des="1268002000" Price="6"/>
+    <Price Ori="1268024000" Des="1268001000" Price="6"/>
+    <Price Ori="1268024000" Des="1268017000" Price="5"/>
+    <Price Ori="1268024000" Des="1268018000" Price="4"/>
+    <Price Ori="1268024000" Des="1268019000" Price="4"/>
+    <Price Ori="1268024000" Des="1268021000" Price="5"/>
+    <Price Ori="1268023000" Des="1268024000" Price="2"/>
+    <Price Ori="1268023000" Des="1268022000" Price="2"/>
+    <Price Ori="1268023000" Des="1268016000" Price="2"/>
+    <Price Ori="1268023000" Des="1268015000" Price="2"/>
+    <Price Ori="1268023000" Des="1268014000" Price="3"/>
+    <Price Ori="1268023000" Des="1268013000" Price="3"/>
+    <Price Ori="1268023000" Des="1268012000" Price="3"/>
+    <Price Ori="1268023000" Des="1268011000" Price="3"/>
+    <Price Ori="1268023000" Des="1268009000" Price="4"/>
+    <Price Ori="1268023000" Des="1268008000" Price="4"/>
+    <Price Ori="1268023000" Des="1268007000" Price="4"/>
+    <Price Ori="1268023000" Des="1268006000" Price="4"/>
+    <Price Ori="1268023000" Des="1268005000" Price="5"/>
+    <Price Ori="1268023000" Des="1268004000" Price="5"/>
+    <Price Ori="1268023000" Des="1268003000" Price="5"/>
+    <Price Ori="1268023000" Des="1268002000" Price="5"/>
+    <Price Ori="1268023000" Des="1268001000" Price="6"/>
+    <Price Ori="1268023000" Des="1268017000" Price="4"/>
+    <Price Ori="1268023000" Des="1268018000" Price="4"/>
+    <Price Ori="1268023000" Des="1268019000" Price="4"/>
+    <Price Ori="1268023000" Des="1268021000" Price="4"/>
+    <Price Ori="1268022000" Des="1268024000" Price="2"/>
+    <Price Ori="1268022000" Des="1268023000" Price="2"/>
+    <Price Ori="1268022000" Des="1268016000" Price="2"/>
+    <Price Ori="1268022000" Des="1268015000" Price="2"/>
+    <Price Ori="1268022000" Des="1268014000" Price="2"/>
+    <Price Ori="1268022000" Des="1268013000" Price="3"/>
+    <Price Ori="1268022000" Des="1268012000" Price="3"/>
+    <Price Ori="1268022000" Des="1268011000" Price="3"/>
+    <Price Ori="1268022000" Des="1268009000" Price="3"/>
+    <Price Ori="1268022000" Des="1268008000" Price="4"/>
+    <Price Ori="1268022000" Des="1268007000" Price="4"/>
+    <Price Ori="1268022000" Des="1268006000" Price="4"/>
+    <Price Ori="1268022000" Des="1268005000" Price="4"/>
+    <Price Ori="1268022000" Des="1268004000" Price="5"/>
+    <Price Ori="1268022000" Des="1268003000" Price="5"/>
+    <Price Ori="1268022000" Des="1268002000" Price="5"/>
+    <Price Ori="1268022000" Des="1268001000" Price="5"/>
+    <Price Ori="1268022000" Des="1268017000" Price="4"/>
+    <Price Ori="1268022000" Des="1268018000" Price="4"/>
+    <Price Ori="1268022000" Des="1268019000" Price="4"/>
+    <Price Ori="1268022000" Des="1268021000" Price="4"/>
+    <Price Ori="1268016000" Des="1268024000" Price="2"/>
+    <Price Ori="1268016000" Des="1268023000" Price="2"/>
+    <Price Ori="1268016000" Des="1268022000" Price="2"/>
+    <Price Ori="1268016000" Des="1268015000" Price="2"/>
+    <Price Ori="1268016000" Des="1268014000" Price="2"/>
+    <Price Ori="1268016000" Des="1268013000" Price="2"/>
+    <Price Ori="1268016000" Des="1268012000" Price="3"/>
+    <Price Ori="1268016000" Des="1268011000" Price="3"/>
+    <Price Ori="1268016000" Des="1268009000" Price="3"/>
+    <Price Ori="1268016000" Des="1268008000" Price="3"/>
+    <Price Ori="1268016000" Des="1268007000" Price="4"/>
+    <Price Ori="1268016000" Des="1268006000" Price="4"/>
+    <Price Ori="1268016000" Des="1268005000" Price="4"/>
+    <Price Ori="1268016000" Des="1268004000" Price="4"/>
+    <Price Ori="1268016000" Des="1268003000" Price="5"/>
+    <Price Ori="1268016000" Des="1268002000" Price="5"/>
+    <Price Ori="1268016000" Des="1268001000" Price="5"/>
+    <Price Ori="1268016000" Des="1268017000" Price="4"/>
+    <Price Ori="1268016000" Des="1268018000" Price="4"/>
+    <Price Ori="1268016000" Des="1268019000" Price="4"/>
+    <Price Ori="1268016000" Des="1268021000" Price="4"/>
+    <Price Ori="1268015000" Des="1268024000" Price="3"/>
+    <Price Ori="1268015000" Des="1268023000" Price="2"/>
+    <Price Ori="1268015000" Des="1268022000" Price="2"/>
+    <Price Ori="1268015000" Des="1268016000" Price="2"/>
+    <Price Ori="1268015000" Des="1268014000" Price="2"/>
+    <Price Ori="1268015000" Des="1268013000" Price="2"/>
+    <Price Ori="1268015000" Des="1268012000" Price="2"/>
+    <Price Ori="1268015000" Des="1268011000" Price="3"/>
+    <Price Ori="1268015000" Des="1268009000" Price="3"/>
+    <Price Ori="1268015000" Des="1268008000" Price="3"/>
+    <Price Ori="1268015000" Des="1268007000" Price="3"/>
+    <Price Ori="1268015000" Des="1268006000" Price="4"/>
+    <Price Ori="1268015000" Des="1268005000" Price="4"/>
+    <Price Ori="1268015000" Des="1268004000" Price="4"/>
+    <Price Ori="1268015000" Des="1268003000" Price="4"/>
+    <Price Ori="1268015000" Des="1268002000" Price="5"/>
+    <Price Ori="1268015000" Des="1268001000" Price="5"/>
+    <Price Ori="1268015000" Des="1268017000" Price="4"/>
+    <Price Ori="1268015000" Des="1268018000" Price="3"/>
+    <Price Ori="1268015000" Des="1268019000" Price="3"/>
+    <Price Ori="1268015000" Des="1268021000" Price="4"/>
+    <Price Ori="1268014000" Des="1268024000" Price="3"/>
+    <Price Ori="1268014000" Des="1268023000" Price="3"/>
+    <Price Ori="1268014000" Des="1268022000" Price="2"/>
+    <Price Ori="1268014000" Des="1268016000" Price="2"/>
+    <Price Ori="1268014000" Des="1268015000" Price="2"/>
+    <Price Ori="1268014000" Des="1268013000" Price="2"/>
+    <Price Ori="1268014000" Des="1268012000" Price="2"/>
+    <Price Ori="1268014000" Des="1268011000" Price="2"/>
+    <Price Ori="1268014000" Des="1268009000" Price="3"/>
+    <Price Ori="1268014000" Des="1268008000" Price="3"/>
+    <Price Ori="1268014000" Des="1268007000" Price="3"/>
+    <Price Ori="1268014000" Des="1268006000" Price="3"/>
+    <Price Ori="1268014000" Des="1268005000" Price="4"/>
+    <Price Ori="1268014000" Des="1268004000" Price="4"/>
+    <Price Ori="1268014000" Des="1268003000" Price="4"/>
+    <Price Ori="1268014000" Des="1268002000" Price="4"/>
+    <Price Ori="1268014000" Des="1268001000" Price="5"/>
+    <Price Ori="1268014000" Des="1268017000" Price="3"/>
+    <Price Ori="1268014000" Des="1268018000" Price="3"/>
+    <Price Ori="1268014000" Des="1268019000" Price="3"/>
+    <Price Ori="1268014000" Des="1268021000" Price="3"/>
+    <Price Ori="1268013000" Des="1268024000" Price="3"/>
+    <Price Ori="1268013000" Des="1268023000" Price="3"/>
+    <Price Ori="1268013000" Des="1268022000" Price="3"/>
+    <Price Ori="1268013000" Des="1268016000" Price="2"/>
+    <Price Ori="1268013000" Des="1268015000" Price="2"/>
+    <Price Ori="1268013000" Des="1268014000" Price="2"/>
+    <Price Ori="1268013000" Des="1268012000" Price="2"/>
+    <Price Ori="1268013000" Des="1268011000" Price="2"/>
+    <Price Ori="1268013000" Des="1268009000" Price="2"/>
+    <Price Ori="1268013000" Des="1268008000" Price="3"/>
+    <Price Ori="1268013000" Des="1268007000" Price="3"/>
+    <Price Ori="1268013000" Des="1268006000" Price="3"/>
+    <Price Ori="1268013000" Des="1268005000" Price="3"/>
+    <Price Ori="1268013000" Des="1268004000" Price="4"/>
+    <Price Ori="1268013000" Des="1268003000" Price="4"/>
+    <Price Ori="1268013000" Des="1268002000" Price="4"/>
+    <Price Ori="1268013000" Des="1268001000" Price="4"/>
+    <Price Ori="1268013000" Des="1268017000" Price="3"/>
+    <Price Ori="1268013000" Des="1268018000" Price="3"/>
+    <Price Ori="1268013000" Des="1268019000" Price="3"/>
+    <Price Ori="1268013000" Des="1268021000" Price="3"/>
+    <Price Ori="1268012000" Des="1268024000" Price="3"/>
+    <Price Ori="1268012000" Des="1268023000" Price="3"/>
+    <Price Ori="1268012000" Des="1268022000" Price="3"/>
+    <Price Ori="1268012000" Des="1268016000" Price="3"/>
+    <Price Ori="1268012000" Des="1268015000" Price="2"/>
+    <Price Ori="1268012000" Des="1268014000" Price="2"/>
+    <Price Ori="1268012000" Des="1268013000" Price="2"/>
+    <Price Ori="1268012000" Des="1268011000" Price="2"/>
+    <Price Ori="1268012000" Des="1268009000" Price="2"/>
+    <Price Ori="1268012000" Des="1268008000" Price="2"/>
+    <Price Ori="1268012000" Des="1268007000" Price="3"/>
+    <Price Ori="1268012000" Des="1268006000" Price="3"/>
+    <Price Ori="1268012000" Des="1268005000" Price="3"/>
+    <Price Ori="1268012000" Des="1268004000" Price="3"/>
+    <Price Ori="1268012000" Des="1268003000" Price="4"/>
+    <Price Ori="1268012000" Des="1268002000" Price="4"/>
+    <Price Ori="1268012000" Des="1268001000" Price="4"/>
+    <Price Ori="1268012000" Des="1268017000" Price="3"/>
+    <Price Ori="1268012000" Des="1268018000" Price="3"/>
+    <Price Ori="1268012000" Des="1268019000" Price="3"/>
+    <Price Ori="1268012000" Des="1268021000" Price="3"/>
+    <Price Ori="1268011000" Des="1268024000" Price="4"/>
+    <Price Ori="1268011000" Des="1268023000" Price="3"/>
+    <Price Ori="1268011000" Des="1268022000" Price="3"/>
+    <Price Ori="1268011000" Des="1268016000" Price="3"/>
+    <Price Ori="1268011000" Des="1268015000" Price="3"/>
+    <Price Ori="1268011000" Des="1268014000" Price="2"/>
+    <Price Ori="1268011000" Des="1268013000" Price="2"/>
+    <Price Ori="1268011000" Des="1268012000" Price="2"/>
+    <Price Ori="1268011000" Des="1268009000" Price="2"/>
+    <Price Ori="1268011000" Des="1268008000" Price="2"/>
+    <Price Ori="1268011000" Des="1268007000" Price="2"/>
+    <Price Ori="1268011000" Des="1268006000" Price="3"/>
+    <Price Ori="1268011000" Des="1268005000" Price="3"/>
+    <Price Ori="1268011000" Des="1268004000" Price="3"/>
+    <Price Ori="1268011000" Des="1268003000" Price="3"/>
+    <Price Ori="1268011000" Des="1268002000" Price="4"/>
+    <Price Ori="1268011000" Des="1268001000" Price="4"/>
+    <Price Ori="1268011000" Des="1268017000" Price="3"/>
+    <Price Ori="1268011000" Des="1268018000" Price="2"/>
+    <Price Ori="1268011000" Des="1268019000" Price="2"/>
+    <Price Ori="1268011000" Des="1268021000" Price="3"/>
+    <Price Ori="1268009000" Des="1268024000" Price="4"/>
+    <Price Ori="1268009000" Des="1268023000" Price="4"/>
+    <Price Ori="1268009000" Des="1268022000" Price="3"/>
+    <Price Ori="1268009000" Des="1268016000" Price="3"/>
+    <Price Ori="1268009000" Des="1268015000" Price="3"/>
+    <Price Ori="1268009000" Des="1268014000" Price="3"/>
+    <Price Ori="1268009000" Des="1268013000" Price="2"/>
+    <Price Ori="1268009000" Des="1268012000" Price="2"/>
+    <Price Ori="1268009000" Des="1268011000" Price="2"/>
+    <Price Ori="1268009000" Des="1268008000" Price="2"/>
+    <Price Ori="1268009000" Des="1268007000" Price="2"/>
+    <Price Ori="1268009000" Des="1268006000" Price="2"/>
+    <Price Ori="1268009000" Des="1268005000" Price="3"/>
+    <Price Ori="1268009000" Des="1268004000" Price="3"/>
+    <Price Ori="1268009000" Des="1268003000" Price="3"/>
+    <Price Ori="1268009000" Des="1268002000" Price="3"/>
+    <Price Ori="1268009000" Des="1268001000" Price="4"/>
+    <Price Ori="1268009000" Des="1268017000" Price="2"/>
+    <Price Ori="1268009000" Des="1268018000" Price="2"/>
+    <Price Ori="1268009000" Des="1268019000" Price="2"/>
+    <Price Ori="1268009000" Des="1268021000" Price="2"/>
+    <Price Ori="1268008000" Des="1268024000" Price="4"/>
+    <Price Ori="1268008000" Des="1268023000" Price="4"/>
+    <Price Ori="1268008000" Des="1268022000" Price="4"/>
+    <Price Ori="1268008000" Des="1268016000" Price="3"/>
+    <Price Ori="1268008000" Des="1268015000" Price="3"/>
+    <Price Ori="1268008000" Des="1268014000" Price="3"/>
+    <Price Ori="1268008000" Des="1268013000" Price="3"/>
+    <Price Ori="1268008000" Des="1268012000" Price="2"/>
+    <Price Ori="1268008000" Des="1268011000" Price="2"/>
+    <Price Ori="1268008000" Des="1268009000" Price="2"/>
+    <Price Ori="1268008000" Des="1268007000" Price="2"/>
+    <Price Ori="1268008000" Des="1268006000" Price="2"/>
+    <Price Ori="1268008000" Des="1268005000" Price="2"/>
+    <Price Ori="1268008000" Des="1268004000" Price="3"/>
+    <Price Ori="1268008000" Des="1268003000" Price="3"/>
+    <Price Ori="1268008000" Des="1268002000" Price="3"/>
+    <Price Ori="1268008000" Des="1268001000" Price="3"/>
+    <Price Ori="1268008000" Des="1268017000" Price="2"/>
+    <Price Ori="1268008000" Des="1268018000" Price="2"/>
+    <Price Ori="1268008000" Des="1268019000" Price="2"/>
+    <Price Ori="1268008000" Des="1268021000" Price="2"/>
+    <Price Ori="1268007000" Des="1268024000" Price="4"/>
+    <Price Ori="1268007000" Des="1268023000" Price="4"/>
+    <Price Ori="1268007000" Des="1268022000" Price="4"/>
+    <Price Ori="1268007000" Des="1268016000" Price="4"/>
+    <Price Ori="1268007000" Des="1268015000" Price="3"/>
+    <Price Ori="1268007000" Des="1268014000" Price="3"/>
+    <Price Ori="1268007000" Des="1268013000" Price="3"/>
+    <Price Ori="1268007000" Des="1268012000" Price="3"/>
+    <Price Ori="1268007000" Des="1268011000" Price="2"/>
+    <Price Ori="1268007000" Des="1268009000" Price="2"/>
+    <Price Ori="1268007000" Des="1268008000" Price="2"/>
+    <Price Ori="1268007000" Des="1268006000" Price="2"/>
+    <Price Ori="1268007000" Des="1268005000" Price="2"/>
+    <Price Ori="1268007000" Des="1268004000" Price="2"/>
+    <Price Ori="1268007000" Des="1268003000" Price="3"/>
+    <Price Ori="1268007000" Des="1268002000" Price="3"/>
+    <Price Ori="1268007000" Des="1268001000" Price="3"/>
+    <Price Ori="1268007000" Des="1268017000" Price="2"/>
+    <Price Ori="1268007000" Des="1268018000" Price="2"/>
+    <Price Ori="1268007000" Des="1268019000" Price="2"/>
+    <Price Ori="1268007000" Des="1268021000" Price="2"/>
+    <Price Ori="1268006000" Des="1268024000" Price="5"/>
+    <Price Ori="1268006000" Des="1268023000" Price="4"/>
+    <Price Ori="1268006000" Des="1268022000" Price="4"/>
+    <Price Ori="1268006000" Des="1268016000" Price="4"/>
+    <Price Ori="1268006000" Des="1268015000" Price="4"/>
+    <Price Ori="1268006000" Des="1268014000" Price="3"/>
+    <Price Ori="1268006000" Des="1268013000" Price="3"/>
+    <Price Ori="1268006000" Des="1268012000" Price="3"/>
+    <Price Ori="1268006000" Des="1268011000" Price="3"/>
+    <Price Ori="1268006000" Des="1268009000" Price="2"/>
+    <Price Ori="1268006000" Des="1268008000" Price="2"/>
+    <Price Ori="1268006000" Des="1268007000" Price="2"/>
+    <Price Ori="1268006000" Des="1268005000" Price="2"/>
+    <Price Ori="1268006000" Des="1268004000" Price="2"/>
+    <Price Ori="1268006000" Des="1268003000" Price="2"/>
+    <Price Ori="1268006000" Des="1268002000" Price="3"/>
+    <Price Ori="1268006000" Des="1268001000" Price="3"/>
+    <Price Ori="1268006000" Des="1268017000" Price="3"/>
+    <Price Ori="1268006000" Des="1268018000" Price="2"/>
+    <Price Ori="1268006000" Des="1268019000" Price="2"/>
+    <Price Ori="1268006000" Des="1268021000" Price="3"/>
+    <Price Ori="1268005000" Des="1268024000" Price="5"/>
+    <Price Ori="1268005000" Des="1268023000" Price="5"/>
+    <Price Ori="1268005000" Des="1268022000" Price="4"/>
+    <Price Ori="1268005000" Des="1268016000" Price="4"/>
+    <Price Ori="1268005000" Des="1268015000" Price="4"/>
+    <Price Ori="1268005000" Des="1268014000" Price="4"/>
+    <Price Ori="1268005000" Des="1268013000" Price="3"/>
+    <Price Ori="1268005000" Des="1268012000" Price="3"/>
+    <Price Ori="1268005000" Des="1268011000" Price="3"/>
+    <Price Ori="1268005000" Des="1268009000" Price="3"/>
+    <Price Ori="1268005000" Des="1268008000" Price="2"/>
+    <Price Ori="1268005000" Des="1268007000" Price="2"/>
+    <Price Ori="1268005000" Des="1268006000" Price="2"/>
+    <Price Ori="1268005000" Des="1268004000" Price="2"/>
+    <Price Ori="1268005000" Des="1268003000" Price="2"/>
+    <Price Ori="1268005000" Des="1268002000" Price="2"/>
+    <Price Ori="1268005000" Des="1268001000" Price="3"/>
+    <Price Ori="1268005000" Des="1268017000" Price="3"/>
+    <Price Ori="1268005000" Des="1268018000" Price="3"/>
+    <Price Ori="1268005000" Des="1268019000" Price="3"/>
+    <Price Ori="1268005000" Des="1268021000" Price="3"/>
+    <Price Ori="1268004000" Des="1268024000" Price="5"/>
+    <Price Ori="1268004000" Des="1268023000" Price="5"/>
+    <Price Ori="1268004000" Des="1268022000" Price="5"/>
+    <Price Ori="1268004000" Des="1268016000" Price="4"/>
+    <Price Ori="1268004000" Des="1268015000" Price="4"/>
+    <Price Ori="1268004000" Des="1268014000" Price="4"/>
+    <Price Ori="1268004000" Des="1268013000" Price="4"/>
+    <Price Ori="1268004000" Des="1268012000" Price="3"/>
+    <Price Ori="1268004000" Des="1268011000" Price="3"/>
+    <Price Ori="1268004000" Des="1268009000" Price="3"/>
+    <Price Ori="1268004000" Des="1268008000" Price="3"/>
+    <Price Ori="1268004000" Des="1268007000" Price="2"/>
+    <Price Ori="1268004000" Des="1268006000" Price="2"/>
+    <Price Ori="1268004000" Des="1268005000" Price="2"/>
+    <Price Ori="1268004000" Des="1268003000" Price="2"/>
+    <Price Ori="1268004000" Des="1268002000" Price="2"/>
+    <Price Ori="1268004000" Des="1268001000" Price="2"/>
+    <Price Ori="1268004000" Des="1268017000" Price="3"/>
+    <Price Ori="1268004000" Des="1268018000" Price="3"/>
+    <Price Ori="1268004000" Des="1268019000" Price="3"/>
+    <Price Ori="1268004000" Des="1268021000" Price="3"/>
+    <Price Ori="1268003000" Des="1268024000" Price="5"/>
+    <Price Ori="1268003000" Des="1268023000" Price="5"/>
+    <Price Ori="1268003000" Des="1268022000" Price="5"/>
+    <Price Ori="1268003000" Des="1268016000" Price="5"/>
+    <Price Ori="1268003000" Des="1268015000" Price="4"/>
+    <Price Ori="1268003000" Des="1268014000" Price="4"/>
+    <Price Ori="1268003000" Des="1268013000" Price="4"/>
+    <Price Ori="1268003000" Des="1268012000" Price="4"/>
+    <Price Ori="1268003000" Des="1268011000" Price="3"/>
+    <Price Ori="1268003000" Des="1268009000" Price="3"/>
+    <Price Ori="1268003000" Des="1268008000" Price="3"/>
+    <Price Ori="1268003000" Des="1268007000" Price="3"/>
+    <Price Ori="1268003000" Des="1268006000" Price="2"/>
+    <Price Ori="1268003000" Des="1268005000" Price="2"/>
+    <Price Ori="1268003000" Des="1268004000" Price="2"/>
+    <Price Ori="1268003000" Des="1268002000" Price="2"/>
+    <Price Ori="1268003000" Des="1268001000" Price="2"/>
+    <Price Ori="1268003000" Des="1268017000" Price="3"/>
+    <Price Ori="1268003000" Des="1268018000" Price="3"/>
+    <Price Ori="1268003000" Des="1268019000" Price="3"/>
+    <Price Ori="1268003000" Des="1268021000" Price="3"/>
+    <Price Ori="1268002000" Des="1268024000" Price="6"/>
+    <Price Ori="1268002000" Des="1268023000" Price="5"/>
+    <Price Ori="1268002000" Des="1268022000" Price="5"/>
+    <Price Ori="1268002000" Des="1268016000" Price="5"/>
+    <Price Ori="1268002000" Des="1268015000" Price="5"/>
+    <Price Ori="1268002000" Des="1268014000" Price="4"/>
+    <Price Ori="1268002000" Des="1268013000" Price="4"/>
+    <Price Ori="1268002000" Des="1268012000" Price="4"/>
+    <Price Ori="1268002000" Des="1268011000" Price="4"/>
+    <Price Ori="1268002000" Des="1268009000" Price="3"/>
+    <Price Ori="1268002000" Des="1268008000" Price="3"/>
+    <Price Ori="1268002000" Des="1268007000" Price="3"/>
+    <Price Ori="1268002000" Des="1268006000" Price="3"/>
+    <Price Ori="1268002000" Des="1268005000" Price="2"/>
+    <Price Ori="1268002000" Des="1268004000" Price="2"/>
+    <Price Ori="1268002000" Des="1268003000" Price="2"/>
+    <Price Ori="1268002000" Des="1268001000" Price="2"/>
+    <Price Ori="1268002000" Des="1268017000" Price="4"/>
+    <Price Ori="1268002000" Des="1268018000" Price="3"/>
+    <Price Ori="1268002000" Des="1268019000" Price="3"/>
+    <Price Ori="1268002000" Des="1268021000" Price="4"/>
+    <Price Ori="1268001000" Des="1268024000" Price="6"/>
+    <Price Ori="1268001000" Des="1268023000" Price="6"/>
+    <Price Ori="1268001000" Des="1268022000" Price="5"/>
+    <Price Ori="1268001000" Des="1268016000" Price="5"/>
+    <Price Ori="1268001000" Des="1268015000" Price="5"/>
+    <Price Ori="1268001000" Des="1268014000" Price="5"/>
+    <Price Ori="1268001000" Des="1268013000" Price="4"/>
+    <Price Ori="1268001000" Des="1268012000" Price="4"/>
+    <Price Ori="1268001000" Des="1268011000" Price="4"/>
+    <Price Ori="1268001000" Des="1268009000" Price="4"/>
+    <Price Ori="1268001000" Des="1268008000" Price="3"/>
+    <Price Ori="1268001000" Des="1268007000" Price="3"/>
+    <Price Ori="1268001000" Des="1268006000" Price="3"/>
+    <Price Ori="1268001000" Des="1268005000" Price="3"/>
+    <Price Ori="1268001000" Des="1268004000" Price="2"/>
+    <Price Ori="1268001000" Des="1268003000" Price="2"/>
+    <Price Ori="1268001000" Des="1268002000" Price="2"/>
+    <Price Ori="1268001000" Des="1268017000" Price="4"/>
+    <Price Ori="1268001000" Des="1268018000" Price="4"/>
+    <Price Ori="1268001000" Des="1268019000" Price="4"/>
+    <Price Ori="1268001000" Des="1268021000" Price="4"/>
+    <Price Ori="1268017000" Des="1268024000" Price="5"/>
+    <Price Ori="1268017000" Des="1268023000" Price="4"/>
+    <Price Ori="1268017000" Des="1268022000" Price="4"/>
+    <Price Ori="1268017000" Des="1268016000" Price="4"/>
+    <Price Ori="1268017000" Des="1268015000" Price="4"/>
+    <Price Ori="1268017000" Des="1268014000" Price="3"/>
+    <Price Ori="1268017000" Des="1268013000" Price="3"/>
+    <Price Ori="1268017000" Des="1268012000" Price="3"/>
+    <Price Ori="1268017000" Des="1268011000" Price="3"/>
+    <Price Ori="1268017000" Des="1268009000" Price="2"/>
+    <Price Ori="1268017000" Des="1268008000" Price="2"/>
+    <Price Ori="1268017000" Des="1268007000" Price="2"/>
+    <Price Ori="1268017000" Des="1268006000" Price="3"/>
+    <Price Ori="1268017000" Des="1268005000" Price="3"/>
+    <Price Ori="1268017000" Des="1268004000" Price="3"/>
+    <Price Ori="1268017000" Des="1268003000" Price="3"/>
+    <Price Ori="1268017000" Des="1268002000" Price="4"/>
+    <Price Ori="1268017000" Des="1268001000" Price="4"/>
+    <Price Ori="1268017000" Des="1268018000" Price="2"/>
+    <Price Ori="1268017000" Des="1268019000" Price="2"/>
+    <Price Ori="1268017000" Des="1268021000" Price="3"/>
+    <Price Ori="1268018000" Des="1268024000" Price="4"/>
+    <Price Ori="1268018000" Des="1268023000" Price="4"/>
+    <Price Ori="1268018000" Des="1268022000" Price="4"/>
+    <Price Ori="1268018000" Des="1268016000" Price="4"/>
+    <Price Ori="1268018000" Des="1268015000" Price="3"/>
+    <Price Ori="1268018000" Des="1268014000" Price="3"/>
+    <Price Ori="1268018000" Des="1268013000" Price="3"/>
+    <Price Ori="1268018000" Des="1268012000" Price="3"/>
+    <Price Ori="1268018000" Des="1268011000" Price="2"/>
+    <Price Ori="1268018000" Des="1268009000" Price="2"/>
+    <Price Ori="1268018000" Des="1268008000" Price="2"/>
+    <Price Ori="1268018000" Des="1268007000" Price="2"/>
+    <Price Ori="1268018000" Des="1268006000" Price="2"/>
+    <Price Ori="1268018000" Des="1268005000" Price="3"/>
+    <Price Ori="1268018000" Des="1268004000" Price="3"/>
+    <Price Ori="1268018000" Des="1268003000" Price="3"/>
+    <Price Ori="1268018000" Des="1268002000" Price="3"/>
+    <Price Ori="1268018000" Des="1268001000" Price="4"/>
+    <Price Ori="1268018000" Des="1268017000" Price="2"/>
+    <Price Ori="1268018000" Des="1268019000" Price="2"/>
+    <Price Ori="1268018000" Des="1268021000" Price="2"/>
+    <Price Ori="1268019000" Des="1268024000" Price="4"/>
+    <Price Ori="1268019000" Des="1268023000" Price="4"/>
+    <Price Ori="1268019000" Des="1268022000" Price="4"/>
+    <Price Ori="1268019000" Des="1268016000" Price="4"/>
+    <Price Ori="1268019000" Des="1268015000" Price="3"/>
+    <Price Ori="1268019000" Des="1268014000" Price="3"/>
+    <Price Ori="1268019000" Des="1268013000" Price="3"/>
+    <Price Ori="1268019000" Des="1268012000" Price="3"/>
+    <Price Ori="1268019000" Des="1268011000" Price="2"/>
+    <Price Ori="1268019000" Des="1268009000" Price="2"/>
+    <Price Ori="1268019000" Des="1268008000" Price="2"/>
+    <Price Ori="1268019000" Des="1268007000" Price="2"/>
+    <Price Ori="1268019000" Des="1268006000" Price="2"/>
+    <Price Ori="1268019000" Des="1268005000" Price="3"/>
+    <Price Ori="1268019000" Des="1268004000" Price="3"/>
+    <Price Ori="1268019000" Des="1268003000" Price="3"/>
+    <Price Ori="1268019000" Des="1268002000" Price="3"/>
+    <Price Ori="1268019000" Des="1268001000" Price="4"/>
+    <Price Ori="1268019000" Des="1268017000" Price="2"/>
+    <Price Ori="1268019000" Des="1268018000" Price="2"/>
+    <Price Ori="1268019000" Des="1268021000" Price="2"/>
+    <Price Ori="1268021000" Des="1268024000" Price="5"/>
+    <Price Ori="1268021000" Des="1268023000" Price="4"/>
+    <Price Ori="1268021000" Des="1268022000" Price="4"/>
+    <Price Ori="1268021000" Des="1268016000" Price="4"/>
+    <Price Ori="1268021000" Des="1268015000" Price="4"/>
+    <Price Ori="1268021000" Des="1268014000" Price="3"/>
+    <Price Ori="1268021000" Des="1268013000" Price="3"/>
+    <Price Ori="1268021000" Des="1268012000" Price="3"/>
+    <Price Ori="1268021000" Des="1268011000" Price="3"/>
+    <Price Ori="1268021000" Des="1268009000" Price="2"/>
+    <Price Ori="1268021000" Des="1268008000" Price="2"/>
+    <Price Ori="1268021000" Des="1268007000" Price="2"/>
+    <Price Ori="1268021000" Des="1268006000" Price="3"/>
+    <Price Ori="1268021000" Des="1268005000" Price="3"/>
+    <Price Ori="1268021000" Des="1268004000" Price="3"/>
+    <Price Ori="1268021000" Des="1268003000" Price="3"/>
+    <Price Ori="1268021000" Des="1268002000" Price="4"/>
+    <Price Ori="1268021000" Des="1268001000" Price="4"/>
+    <Price Ori="1268021000" Des="1268017000" Price="2"/>
+    <Price Ori="1268021000" Des="1268018000" Price="2"/>
+    <Price Ori="1268021000" Des="1268019000" Price="2"/>
+  </ODPrice>
+  <TransStationBelongLine>
+    <TransStationBelongLineInfor StationNo="1268003000" BelongToLine="261"/>
+    <TransStationBelongLineInfor StationNo="1268004000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1268008000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1268009000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1268016000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1268028000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1268030000" BelongToLine="268"/>
+    <TransStationBelongLineInfor StationNo="1261006000" BelongToLine="261"/>
+    <TransStationBelongLineInfor StationNo="1268019000" BelongToLine="260"/>
+    <TransStationBelongLineInfor StationNo="1263037000" BelongToLine="263"/>
+    <TransStationBelongLineInfor StationNo="1268021000" BelongToLine="262"/>
+    <TransStationBelongLineInfor StationNo="1261018000" BelongToLine="261"/>
+    <TransStationBelongLineInfor StationNo="1262016000" BelongToLine="262"/>
+  </TransStationBelongLine>
+</MetroInformation>
