@@ -137,6 +137,8 @@ int Transcount = 0;    //储存路径中换乘的次数
 double TransSumtime = 0;  //储存路径的换乘时间
 int TransLimitCount = 0; //限制有效路径的换乘次数
 double ValidPathTime = 0; //用于记录有效路径的出行时间限制
+double *tempRecordsOfTime = nullptr;
+double tempSumTime = 0;
 
 
 //字符串拼接
@@ -531,7 +533,6 @@ int PullQueue(int *Visited, SearStation* SearchQueue)
         return -1;
 
     Visited[SearchQueue[Level].NodeNum] = 0;
-
     SearchQueue[Level].NodeNum = 0;
     SearchQueue[Level].Prev = 0;
 
@@ -673,7 +674,7 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
     int counter = 0;
     int NodeNum = 0;       /*用于得到查找节点的节点号*/
     double PathSumTime = 0; //用于记录每条有效路径的总出行时间
-
+    double temptime = 0;
     char Stor[11];
     memset(Stor,'\0',11);
     char span=' ';
@@ -755,6 +756,7 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
                         counter++;             //记录找到的可达路径的条数
                         Transcount = 0;       //每条有效路径的换乘次数在计算时先清零
                         TransSumtime = 0;     //每条有效路径的换乘时间在计算时先清零
+
                         PathSumTime = SumPathTime(DestinationNode, SearchQueue, Head, IsTrans, AllStationCount, AdjaceMaxCount, StatTime,
                                                   Statstoptime, StationLine, TransStation, TransTime);
 
@@ -813,9 +815,21 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
                     NewNode.NodeNum = point->vertex;
                     NewNode.Prev = SearchQueue[Level].NodeNum;
                     PushQueue(NewNode, StationMax, SearchQueue, Visited);            /*插入当前遍历的point节点*/
-
-                    NodeNum = SearchQueue[Level].NodeNum; //队列首节点即point的站点编号
-                    point = Head[NodeNum-1].NextStation; //取point节点的下一个相邻节点
+                    if(Level==1)
+                        temptime = Graphtime(0, SearchQueue[0].NodeNum, SearchQueue[1].NodeNum, Head, IsTrans, AllStationCount, AdjaceMaxCount, StatTime, Statstoptime,
+                                             StationLine, TransStation, TransTime);
+                    else
+                        temptime = Graphtime(SearchQueue[Level-2].NodeNum, SearchQueue[Level-1].NodeNum, SearchQueue[Level].NodeNum, Head, IsTrans, AllStationCount, AdjaceMaxCount, StatTime, Statstoptime,
+                                             StationLine, TransStation, TransTime);
+                    tempRecordsOfTime[Level] = temptime;
+                    tempSumTime += temptime;
+                    if (tempSumTime < ValidPathTime){
+                        NodeNum = SearchQueue[Level].NodeNum; //队列首节点即point的站点编号
+                        point = Head[NodeNum-1].NextStation; //取point节点的下一个相邻节点
+                    }
+                    else{
+                        point = nullptr;
+                    }
                 }
                 
             }
@@ -824,11 +838,15 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
                 DeletePoint.vertex = SearchQueue[Level].NodeNum;
                 DeletePoint.NextStation = nullptr;
                 PullQueue(Visited, SearchQueue);
+                tempSumTime -= tempRecordsOfTime[Level+1];
+                tempRecordsOfTime[Level+1] = 0;
                 point = FindNextNode(&DeletePoint, Head, SearchQueue);                   /*返回查找上一层节点的紧邻节点*/
             }
         }while(Check(SourceNode, point, SearchQueue));  //当point为空并且队列首节点为源节点时退出循环
         Level = -1;
         Visited[SourceNode] = 0;
+        tempSumTime = 0;
+        memset(tempRecordsOfTime, 0, StationMax);
 
         if(!ExistPathFlag)      //当没有完全满足约束条件的有效路径时，需要记录最接近的有效路径
         {
@@ -1536,6 +1554,9 @@ int main()
 
     /*搜索路径的记录站点情况        */
     auto *SearchQueue = new SearStation[StationMaxCount];
+
+    /*记录搜索过程中各站之间的时间*/
+    tempRecordsOfTime = new double[StationMaxCount]();
 
     /*用于节点是否被访问的标记*/
     int *Visited = new int[StationMaxCount+1];
