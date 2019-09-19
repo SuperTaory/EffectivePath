@@ -6,7 +6,7 @@
         <RepeatAllStaitonCount repeatAllStaitonCount="198" />
         <AdjacStaitonCount adjacStaitonCount="380" />
         <LineCount lineCount="8" />
-        <TransLimitCount transLimitCount="2" />
+        <TransLimitCount transLimitCount="3" />
         <TrainInterval TrainInterval1="6" TrainInterval2="8" TrainInterval3="8" TrainInterval4="6" TrainInterval5="8.5" TrainInterval6="9" TrainInterval7="9" TrainInterval8="10"/>
         <Speed Speed1="34.8" Speed2="31" Speed3="35.14" Speed4="37" Speed5="35.58" Speed6="32" Speed7="33" Speed8="56"/>
         <LineNoName LineNoName1="268" LineNoName2="260" LineNoName3="261" LineNoName4="262" LineNoName5="263" LineNoName6="265" LineNoName7="267" LineNoName8="241"/>
