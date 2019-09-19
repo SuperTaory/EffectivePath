@@ -275,25 +275,6 @@ double StatoSta(int Pre, int Sou, int Des, const bool *IsTrans, int AllStationCo
     }
 
 
-//    //查看节点前后节点的所属线路，查看是否换乘
-//    if(StationLine[Pre-1][0]!=0 && StationLine[Sou-1][0]!=0 && StationLine[Pre-1][0] == StationLine[Sou-1][0])
-//        FromLine = StationLine[Pre-1][0];
-//    else if(StationLine[Pre-1][0]!=0 && StationLine[Sou-1][1]!=0 && StationLine[Pre-1][0] == StationLine[Sou-1][1])
-//        FromLine = StationLine[Pre-1][0];
-//    else if(StationLine[Pre-1][1]!=0 && StationLine[Sou-1][0]!=0 && StationLine[Pre-1][1] == StationLine[Sou-1][0])
-//        FromLine = StationLine[Pre-1][1];
-//    else if(StationLine[Pre-1][1]!=0 && StationLine[Sou-1][1]!=0 && StationLine[Pre-1][1] == StationLine[Sou-1][1])
-//        FromLine = StationLine[Pre-1][1];
-//
-//    if(StationLine[Sou-1][0]!=0 && StationLine[Des-1][0]!=0 && StationLine[Sou-1][0] == StationLine[Des-1][0])
-//        ToLine = StationLine[Sou-1][0];
-//    else if(StationLine[Sou-1][0]!=0 && StationLine[Des-1][1]!=0 && StationLine[Sou-1][0] == StationLine[Des-1][1])
-//        ToLine = StationLine[Sou-1][0];
-//    else if(StationLine[Sou-1][1]!=0 && StationLine[Des-1][0]!=0 && StationLine[Sou-1][1] == StationLine[Des-1][0])
-//        ToLine = StationLine[Sou-1][1];
-//    else if(StationLine[Sou-1][1]!=0 && StationLine[Des-1][1]!=0 && StationLine[Sou-1][1] == StationLine[Des-1][1])
-//        ToLine = StationLine[Sou-1][1];
-
     //没有换乘线路
     if(FromLine == ToLine)
     {
@@ -702,6 +683,7 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
 
         fwrite(&span, 1,1,AllPathfp);
         fwrite(&Pathflag,1,1,AllPathfp);
+        fwrite(&span, 1,1,AllPathfp);
         memset(Stor,'\0',11);
         Transcount = 0;
         sprintf(Stor,"%d",Transcount);
@@ -772,6 +754,7 @@ int SearchPth(int SourceNode, int DestinationNode, int StationMax,  SearStation 
 
                                 fwrite(&span, 1,1,AllPathfp);
                                 fwrite(&Pathflag,1,1,AllPathfp);
+                                fwrite(&span, 1,1,AllPathfp);
                                 sprintf(Stor,"%d",Transcount);
                                 fwrite(Stor,strlen(Stor),1,AllPathfp);
 
@@ -1061,6 +1044,7 @@ int main()
                 {
                     if(!strcmp(attributeOfStation->Name(),"StatNo"))
                     {
+                        cout<< attributeOfStation->Value()<<',';
                         strcpy(XMLStatConnectInformation[XMLReadInforIndex].StatNo, attributeOfStation->Value());
                     }
                     else if(!strcmp(attributeOfStation->Name(),"IsTrans"))
@@ -1103,6 +1087,10 @@ int main()
                     {
                         XMLStatConnectInformation[XMLReadInforIndex].NextDirect = atoi(attributeOfStation->Value());
                         XMLReadInforIndex++;
+                    }
+                    else if(!strcmp(attributeOfStation->Name(),"StaName"))
+                    {
+                        cout<< attributeOfStation->Value()<<endl;
                     }
                     else
                     {
@@ -1227,10 +1215,13 @@ int main()
 
     /*定义站点编号数组用于转换*/
     char **ConvertStationNo = new char* [StationMaxCount];
+    char **stationLineNo = new char* [StationMaxCount];
     for(Row = 0; Row < StationMaxCount; Row++)
     {
         ConvertStationNo[Row] = new char[11];
+        stationLineNo[Row] = new char[4];
         memset(ConvertStationNo[Row],'\0',11);
+        memset(stationLineNo[Row],'\0',4);
     }
 
     //去除掉重复的站点
@@ -1253,9 +1244,14 @@ int main()
         else
         {
             strcpy(ConvertStationNo[Row],XMLStatConnectInformation[Col].StatNo);
+            strcpy(stationLineNo[Row],XMLStatConnectInformation[Col].LineNo);
             Row++;
             Col++;
         }
+    }
+    //打印站点编号1-n与原始10位长度编号和线路编号的对应关系
+    for (int i = 0; i < StationMaxCount; i++){
+        cout<<i+1<<','<<ConvertStationNo[i]<<','<<stationLineNo[i]<<endl;
     }
 
     //转存站点编号
@@ -1369,22 +1365,6 @@ int main()
             StationLine[XMLConvertStatConnectInfor[Row].StatNo-1][3] = XMLConvertStatConnectInfor[Row].LineNo;
         }
     }
-
-//    cout<< sizeof(StationLine[0][0]);
-//    cout<< sizeof(StationLine);
-//    set<int> setPr(StationLine[19], StationLine[19]+sizeof(StationLine[0][0]));
-//    cout<<*setPr.begin()<<'-'<<*setPr.end();
-
-//    for (int i = 0; i < StationMaxCount; i++){
-//        cout<<i+1<<':';
-//        cout<<StationLine[i][0]<<' ';
-//        cout<<StationLine[i][1]<<' ';
-//        cout<<StationLine[i][2]<<' ';
-//        cout<<StationLine[i][3]<<' ';
-//        cout<<endl;
-//    }
-
-
 
 
     /*车站是否换乘*/
